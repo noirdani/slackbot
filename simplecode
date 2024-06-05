@@ -7,4 +7,4 @@ import slack
 SLACK_TOKEN="<BOT_USER_OAUTH_TOKEN>" #informar o token do seu app slack
 
 client = slack.WebClient(token=SLACK_TOKEN)
-result = client.chat_postMessage(channel='ID_SLACK',text='Hello :wave:') #apenas aceita emoji padrão do Slack
+result = client.chat_postMessage(channel='ID_SLACK',text='Hi :wave:') #apenas aceita emoji padrão do Slack
